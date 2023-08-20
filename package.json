@@ -1,0 +1,11 @@
+{
+  "name": "remote-sleep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "start node index.js & start ngrok http --domain=random-subdomain.ngrok-free.app 3000"
+  },
+  "dependencies": {
+  }
+}
